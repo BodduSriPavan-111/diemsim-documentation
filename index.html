@@ -516,7 +516,7 @@
 <span class="code-keyword">pip install</span> <span class="code-string">diemsim</span></br></br>
 
 <span class="code-comment"># Import library</span></br>
-<span class="code-keyword">from</span> diemsim <span class="code-keyword">import</span> DIEM
+<span class="code-keyword">from</span> diemsim <span class="code-keyword">import</span> DIEM </br></br>
 
 <span class="code-comment"># Sample data</span><br>
 <span class="code-var">N</span> = <span class="code-num">12</span><br>
@@ -525,7 +525,7 @@
 <span class="code-var">n_iter</span> = <span class="code-func">int</span>(<span class="code-num">1e5</span>)<br><br>
 
 <span class="code-var">S1</span> = <span class="code-lib">np</span>.<span class="code-func">random</span>.<span class="code-func">rand</span>(<span class="code-var">N</span>) * (<span class="code-var">maxV</span> - <span class="code-var">minV</span>) + <span class="code-var">minV</span><br>
-<span class="code-var">S2</span> = <span class="code-lib">np</span>.<span class="code-func">random</span>.<span class="code-func">rand</span>(<span class="code-var">N</span>) * (<span class="code-var">maxV</span> - <span class="code-var">minV</span>) + <span class="code-var">minV</span>
+<span class="code-var">S2</span> = <span class="code-lib">np</span>.<span class="code-func">random</span>.<span class="code-func">rand</span>(<span class="code-var">N</span>) * (<span class="code-var">maxV</span> - <span class="code-var">minV</span>) + <span class="code-var">minV</span> </br></br>
 
 <span class="code-comment"># Initialize DIEM</span><br>
 <span class="code-var">diem</span> = <span class="code-class">DIEM</span>( N=<span class="code-var">N</span>, maxV=<span class="code-var">maxV</span>, minV=<span class="code-var">minV</span>, n_iter=<span class="code-var">n_iter</span> )<br><br>
